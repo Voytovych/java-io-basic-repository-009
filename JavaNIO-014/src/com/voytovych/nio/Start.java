@@ -16,7 +16,7 @@ public class Start {
 			bBuffer.put(data.getBytes());
 			bBuffer.flip();
 			fc.write(bBuffer);
-			bBuffer.rewind();
+			bBuffer.rewind(); 
 			fc.write(bBuffer);
 			
 		} catch (Exception e) {
